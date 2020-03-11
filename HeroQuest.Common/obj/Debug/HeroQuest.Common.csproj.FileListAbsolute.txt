@@ -1,0 +1,5 @@
+C:\_Projects\WPFProjects\HeroQuestSolution\HeroQuest.Common\bin\Debug\HeroQuest.Common.dll
+C:\_Projects\WPFProjects\HeroQuestSolution\HeroQuest.Common\bin\Debug\HeroQuest.Common.pdb
+C:\_Projects\WPFProjects\HeroQuestSolution\HeroQuest.Common\obj\Debug\HeroQuest.Common.csproj.CoreCompileInputs.cache
+C:\_Projects\WPFProjects\HeroQuestSolution\HeroQuest.Common\obj\Debug\HeroQuest.Common.dll
+C:\_Projects\WPFProjects\HeroQuestSolution\HeroQuest.Common\obj\Debug\HeroQuest.Common.pdb

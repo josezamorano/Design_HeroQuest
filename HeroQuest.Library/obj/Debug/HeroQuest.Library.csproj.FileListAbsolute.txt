@@ -1,0 +1,12 @@
+C:\_Projects\WPFProjects\HeroQuestSolution\HeroQuest.Library\bin\Debug\HeroQuest.Library.dll
+C:\_Projects\WPFProjects\HeroQuestSolution\HeroQuest.Library\bin\Debug\HeroQuest.Library.pdb
+C:\_Projects\WPFProjects\HeroQuestSolution\HeroQuest.Library\bin\Debug\Autofac.dll
+C:\_Projects\WPFProjects\HeroQuestSolution\HeroQuest.Library\bin\Debug\HeroQuest.Common.dll
+C:\_Projects\WPFProjects\HeroQuestSolution\HeroQuest.Library\bin\Debug\HeroQuest.Common.pdb
+C:\_Projects\WPFProjects\HeroQuestSolution\HeroQuest.Library\bin\Debug\Autofac.pdb
+C:\_Projects\WPFProjects\HeroQuestSolution\HeroQuest.Library\bin\Debug\Autofac.xml
+C:\_Projects\WPFProjects\HeroQuestSolution\HeroQuest.Library\obj\Debug\HeroQuest.Library.csprojAssemblyReference.cache
+C:\_Projects\WPFProjects\HeroQuestSolution\HeroQuest.Library\obj\Debug\HeroQuest.Library.csproj.CoreCompileInputs.cache
+C:\_Projects\WPFProjects\HeroQuestSolution\HeroQuest.Library\obj\Debug\HeroQuest.Library.csproj.CopyComplete
+C:\_Projects\WPFProjects\HeroQuestSolution\HeroQuest.Library\obj\Debug\HeroQuest.Library.dll
+C:\_Projects\WPFProjects\HeroQuestSolution\HeroQuest.Library\obj\Debug\HeroQuest.Library.pdb

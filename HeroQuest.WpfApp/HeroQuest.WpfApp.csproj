@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3587BFFF-6D4A-463E-A42F-3B8D0B6AC51B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>HeroQuest.WpfApp</RootNamespace>
+    <AssemblyName>HeroQuest.WpfApp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\arrowPointingDown.png" />
+    <Resource Include="Resources\arrowPointingRight.png" />
+    <Resource Include="Resources\arrowPointingUp.png" />
+    <Resource Include="Resources\bat.png" />
+    <Resource Include="Resources\bow.png" />
+    <Resource Include="Resources\bowFacingDown.png" />
+    <Resource Include="Resources\bowFacingDownTranspBknd.png" />
+    <Resource Include="Resources\dungeon1100x600.png" />
+    <Resource Include="Resources\dungeon600x400.png" />
+    <Resource Include="Resources\fireballTransparentBackground.png" />
+    <Resource Include="Resources\fireballTranspBackgroundSmall.png" />
+    <Resource Include="Resources\FlailPointingAngleLeftTranspBackgr.png" />
+    <Resource Include="Resources\FlailPointingAngleRightTranspBackgr.png" />
+    <Resource Include="Resources\FlailPointingLeft.jpg" />
+    <Resource Include="Resources\FlailPointingLeft1.jpg" />
+    <Resource Include="Resources\FlailPointingLeftTranspBkgr.png" />
+    <Resource Include="Resources\FlailPointingRight.jpg" />
+    <Resource Include="Resources\FlailPointingRightTranspBkgr.png" />
+    <Resource Include="Resources\FlailPointingUp.jpg" />
+    <Resource Include="Resources\FlailPointingUp1.jpg" />
+    <Resource Include="Resources\FlailPointingUpTranspBkgr.png" />
+    <Resource Include="Resources\ghost.png" />
+    <Resource Include="Resources\ghoul.png" />
+    <Resource Include="Resources\mace.png" />
+    <Resource Include="Resources\player.png" />
+    <Resource Include="Resources\player1.png" />
+    <Resource Include="Resources\potion_blue.png" />
+    <Resource Include="Resources\potion_red.png" />
+    <Resource Include="Resources\sword.png" />
+    <Resource Include="Resources\sword1.png" />
+    <Resource Include="Resources\swordPointingUpLeft.png" />
+    <Resource Include="Resources\swordPointingUpLeftTranspBknd.png" />
+    <Resource Include="Resources\swordPointingUpRight.png" />
+    <Resource Include="Resources\swordPointingUpRightTranspBknd.png" />
+    <Resource Include="Resources\wizard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HeroQuest.Common\HeroQuest.Common.csproj">
+      <Project>{E6FBEBB1-9241-4B37-9FBB-A15E3177DB3E}</Project>
+      <Name>HeroQuest.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HeroQuest.Library\HeroQuest.Library.csproj">
+      <Project>{537feb13-2487-4151-b6f3-a1bf9e3f6b20}</Project>
+      <Name>HeroQuest.Library</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\swordUp-Transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\swordPointingRightTranspBknd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\swordPointingUpTranspBknd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\swordPointingLeftTranspBknd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\arrowPointingDown_TranspBknd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\arrowPointingLeft_TranspBknd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\arrowPointingRight_TranspBknd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\arrowPointingUp_TranspBknd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\arrowPointingLeftTrsnp.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
